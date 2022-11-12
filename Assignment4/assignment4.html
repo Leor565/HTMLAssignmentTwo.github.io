@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>assignment 4</title>
+        <link rel="stylesheet" href="assignment.css">
+    </head>
+
+    <body>
+        <div class="w1">
+            <header>
+                <p class="margin0"><a href="https://www.centennialcollege.ca/" target="_blank"><img src="banner.jpg"></a></p>
+            </header>
+
+            <main>
+                <form action="/action_page.php" method="post" id="form-center">
+
+                    <h1>CENTENNIAL COLLEGE</h1>
+                    <h2>Continuing Education Course/Instructor Evaluation</h2>
+                    <p class="p1">Please read each statment carefully and consider each one indavidually. Give only<b> one
+                            answer</b> for
+                        each question.</p>
+        
+                    <div class="same"><label for="fname">Course name/Code: </code></label><br> </div>
+                    <div class="same"> <input type="text" id="fname" name="fname" value=""><br> </div>
+                    <br>
+                    <br>
+                    <div class="flex">
+                        <div>
+                            <p> Semester: </p>
+                        </div>
+                        <div class="flex1">
+        
+                            <label><input type="checkbox" id="Fall" name="Fall" value="Fall"> Fall</label>
+        
+                            <label> <input type="checkbox" id="Winter" name="WInter" value="Winter">Winter</label>
+        
+                            <label><input type="checkbox" id="Summer" name="Sumemr" value="Summer">Summer/Spring</label>
+                        </div>
+                        <div>
+                            <label for="year">Year:</label>
+                            <select id="year" name="year">
+                                <option value="2020">2020</option>
+                                <option value="2021">2021</option>
+                                <option value="2022">2022</option>
+                                <option value="2023">2023</option>
+                            </select>
+                        </div>
+                        <br>
+                    </div>
+                    <div class="same"><label for="fname">Instructor: </code></label><br> </div>
+                    <div class="same"> <input type="text" id="fname" name="fname" value=""><br> </div>
+                    <br>
+                    <br>
+                    <div class="color">
+                        <h3>Instructors</h3>
+                    </div>
+                    <p>How would you rate the instructors </p>
+                    <label for="fname">1. Knowledge of the subject</label><br>
+        
+                    <div class="same">
+                        <input type="radio" id="E1" name="Knowledge" value="E1">
+                        <label for="E1">Exellent</label><br>
+                    </div>
+                    <div class="same">
+                        <input type="radio" id="G1" name="Knowledge" value="G1">
+                        <label for="G1">Good</label><br>
+                    </div>
+                    <div class="same">
+                        <input type="radio" id="F1" name="Knowledge" value="F1">
+                        <label for="F1">Fair</label><br>
+                    </div>
+                    <div class="same">
+                        <input type="radio" id="S1" name="Knowledge" value="S1">
+                        <label for="S1">Not Satisfactory</label>
+                    </div>
+                    <br>
+                    <br>
+                    <label for="fname">2. Helpfullness</label><br>
+                    <div class="same">
+                        <input type="radio" id="E2" name="Helpfullness" value="E2">
+                        <label for="E2">Exellent</label><br>
+                    </div>
+                    <div class="same">
+                        <input type="radio" id="G2" name="Helpfullness" value="G2">
+                        <label for="G2">Good</label><br>
+                    </div>
+                    <div class="same">
+                        <input type="radio" id="F2" name="Helpfullness" value="F2">
+                        <label for="F2">Fair</label><br>
+                    </div>
+                    <div class="same">
+                        <input type="radio" id="S2" name="Helpfullness" value="S2">
+                        <label for="S2"> Not Satisfactory</label>
+                    </div>
+                    <br>
+                    <br>
+                    <label for="fname">3. Courtesy and respect for all students</label><br>
+                    <div class="same">
+                        <input type="radio" id="E3" name="courtesy_and_respect" value="E3">
+                        <label for="E3">Exellent</label><br>
+                    </div>
+                    <div class="same">
+                        <input type="radio" id="G3" name="courtesy_and_respect" value="G3">
+                        <label for="G3">Good</label><br>
+                    </div>
+                    <div class="same">
+                        <input type="radio" id="F3" name="courtesy_and_respect" value="F3">
+                        <label for="F3">Fair</label><br>
+                    </div>
+                    <div class="same">
+                        <input type="radio" id="S3" name="courtesy_and_respect" value="S3">
+                        <label for="S3">Not Satisfactory</label>
+                    </div>
+                    <br>
+                    <br>
+                    <label for="fname">4. Communication skills</label><br>
+                    <div class="same">
+                        <input type="radio" id="E4" name="com_skills" value="E4">
+                        <label for="E4">Exellent</label><br>
+                    </div>
+                    <div class="same">
+                        <input type="radio" id="G4" name="com_skills" value="G4">
+                        <label for="G4">Good</label><br>
+                    </div>
+                    <div class="same">
+                        <input type="radio" id="F4" name="com_skills" value="F4">
+                        <label for="F4">Fair</label><br>
+                    </div>
+                    <div class="same">
+                        <input type="radio" id="S4" name="com_skills" value="S4">
+                        <label for="S4">Not Satisfactory</label>
+                    </div>
+                    <br>
+                    <br>
+                    <label for="fname">5. Overall <b>preformance</b></label><br>
+                    <div class="same">
+                        <input type="radio" id="E5" name="overall_preformance" value="E5">
+                        <label for="E5">Exellent</label><br>
+                    </div>
+                    <div class="same">
+                        <input type="radio" id="G5" name="overall_preformance" value="G5">
+                        <label for="G5">Good</label><br>
+                    </div>
+                    <div class="same">
+                        <input type="radio" id="F5" name="overall_preformance" value="F5">
+                        <label for="F5">Fair</label><br>
+                    </div>
+                    <div class="same">
+                        <input type="radio" id="S5" name="overall_preformance" value="S5">
+                        <label for="S5">Not Satisfactory</label>
+                    </div>
+                    <br>
+                    <div class="color">
+                        <h3>Course</h3>
+                    </div>
+                    <label for="fname">6. How would you rate the <b>course materials</b></label><br>
+                    <div class="same">
+                        <input type="radio" id="E6" name="rate_material" value="E6">
+                        <label for="E6">Exellent</label><br>
+                    </div>
+                    <div class="same">
+                        <input type="radio" id="G6" name="rate_material" value="G6">
+                        <label for="G6">Good</label><br>
+                    </div>
+                    <div class="same">
+                        <input type="radio" id="F6" name="rate_material" value="F6">
+                        <label for="F6">Fair</label><br>
+                    </div>
+                    <div class="same">
+                        <input type="radio" id="S6" name="rate_material" value="S6">
+                        <label for="S6">Not Satisfactory</label>
+                    </div>
+                    <br>
+                    <br>
+                    <label for="fname">7. How much did this course meet your <b>expectations</b></label><br>
+                    <div class="same">
+                        <input type="radio" id="E7" name="expectation" value="E7">
+                        <label for="E7">Exellent</label><br>
+                    </div>
+                    <div class="same">
+                        <input type="radio" id="G7" name="expectation" value="G7">
+                        <label for="G7">Good</label><br>
+                    </div>
+                    <div class="same">
+                        <input type="radio" id="F7" name="expectation" value="F7">
+                        <label for="F7">Fair</label><br>
+                    </div>
+                    <div class="same">
+                        <input type="radio" id="S7" name="expectation" value="S7">
+                        <label for="S7">Not Satisfactory</label>
+                    </div>
+                    <br>
+                    <br>
+                    <label for="fname">8. How would you rate this course <b>(overall)</b></label><br>
+                    <div class="same">
+                        <input type="radio" id="E8" name="general_rating" value="E8">
+                        <label for="E8">Exellent</label><br>
+                    </div>
+                    <div class="same">
+                        <input type="radio" id="G8" name="general_rating" value="G8">
+                        <label for="G8">Good</label><br>
+                    </div>
+                    <div class="same">
+                        <input type="radio" id="F8" name="general_rating" value="F8">
+                        <label for="F8">Fair</label><br>
+                    </div>
+                    <div class="same">
+                        <input type="radio" id="S8" name="general_rating" value="S8">
+                        <label for="S8">Not Satisfactory</label>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="color">
+                        <h3>General Information</h3>
+                    </div>
+                    <label for="fname">9. Was the <b>course outline</b> reviewed/explained at the begining of your
+                        course</label><br>
+                    <div class="same">
+                        <input type="radio" id="E9" name="outline" value="E9">
+                        <label for="E9">Exellent</label><br>
+                    </div>
+                    <div class="same">
+                        <input type="radio" id="G9" name="outline" value="G9">
+                        <label for="G9">Good</label><br>
+                    </div>
+                    <div class="same">
+                        <input type="radio" id="F9" name="outline" value="F9">
+                        <label for="F9">Fair</label><br>
+                    </div>
+                    <div class="same">
+                        <input type="radio" id="S9" name="outline" value="S9">
+                        <label for="S9">Not Satisfactory</label>
+                    </div>
+                    <br>
+                    <br>
+                    <label for="fname">10. Would you <b>recommend</b> this course to a friend with the same intrests</label><br>
+                    <div class="same">
+                        <input type="radio" id="E10" name="recommendation" value="E10">
+                        <label for="E10">Exellent</label><br>
+                    </div>
+                    <div class="same">
+                        <input type="radio" id="G10" name="recommendation" value="G10">
+                        <label for="G10">Good</label><br>
+                    </div>
+                    <div class="same">
+                        <input type="radio" id="F10" name="recommendation" value="F10">
+                        <label for="F10">Fair</label><br>
+                    </div>
+                    <div class="same">
+                        <input type="radio" id="S10" name="recommendation" value="S10">
+                        <label for="S10">Not Satisfactory</label>
+                    </div>
+                    <br>
+                    <div class="color">
+                        <h3>Any Other Comments</h3>
+                    </div>
+                    <div class="same"><label for="bestThing">11. What is the <b>best thing</b> about this course?</label><br>
+                    </div>
+                    <div class="same"> <input type="text" id="bestThing" name="bestThing" value=""><br> </div>
+                    <br>
+                    <br>
+                    <div class="same"><label for="course">12. How could we<b> imporve</b> this course?</label><br> </div>
+                    <div class="same"> <input type="text" id="course" name="course" value=""><br> </div>
+                    <br>
+                    <br>
+                    <div class="same"><label for="Other">13. <b>Other: </b></label><br> </div>
+                    <div class="same">
+                        <textarea id="Other" name="Other"></textarea>
+                    </div>
+                    <br>
+                    <br>
+                    <input type="submit" value="Submit">
+                    <hr>
+                    <p>
+                        Web:<a href="www.centennialcollege.ca/continuing_education"
+                            target="_blank">www.centennialcollege.ca/continuing_education</a> Email:<a
+                            href="mailto:Email:continuingeducation@centennialcollege.ca">continuingeducation@centennialcollege.ca</a>
+                    </p>
+                </form>
+                    </main>
+        </div>
+    </body>
+</html>
+message.txt
+15 KB
