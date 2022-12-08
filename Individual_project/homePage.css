@@ -1,0 +1,137 @@
+* {
+
+  font-family: Arial;
+  margin: auto;
+}
+
+.card {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 20%;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.container {
+  background-image: url(houseTitle.jpg);
+  /*what ever image u want to use*/
+  height: 400px;
+  /*what ever height u want */
+  width: auto;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.container>p {
+  text-align: center;
+  /*text u want to place*/
+
+  font-size: 50px;
+  /*word size you want*/
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  color: white;
+}
+
+.here {
+  background-color: #04AA6D;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.container3 {
+  padding: 2px 16px;
+}
+
+
+.D1 {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 1000px;
+  height: auto;
+}
+
+.D1>div {
+  flex-grow: 1;
+
+  width: 300px;
+  height: 100px;
+
+  border: 2px solid black;
+  text-align: center;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.img3 {
+  width: 200px;
+  height: auto;
+
+  display: block;
+  margin: auto;
+}
+
+h3 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+body{
+  background-color: aqua;
+}
+h2{
+  text-align: center;
+}
